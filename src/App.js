@@ -19,7 +19,7 @@ function App() {
   
   useEffect(() => {
     setPosts(data);
-  }, [data])
+  }, [data, setPosts])
   return (
     <div className="App">
       <Header title="React JS Blog"/>  
